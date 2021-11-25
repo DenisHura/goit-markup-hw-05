@@ -708,7 +708,9 @@ img {
 }
 
 .project-item-link:hover .project-item-image::before,
-.project-item-link:hover .project-item-hover {
+.project-item-link:hover .project-item-hover,
+.project-item-link:focus .project-item-image::before,
+.project-item-link:focus .project-item-hover {
   transform: translateY(0);
 }
 
